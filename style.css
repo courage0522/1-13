@@ -48,18 +48,18 @@ footer{
     .first-line{
         text-align:center;
     }
-}
-@media screen and (max-width:48rem){
-        .second-line{
-            padding-left:2rem;
-            padding-right:2rem;
-            border-bottom: 1px solid #392d23   
+    .second-line{
+        padding-left:2rem;
+        padding-right:2rem;
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+        border-bottom: 1px solid #392d23   
     }
-}
-
-@media screen and (max-width:48rem){
     .mobile-footer{
         display: block;
 
+    }
+    .flag{
+        display: none;
     }
 }
